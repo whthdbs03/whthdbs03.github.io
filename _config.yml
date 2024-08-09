@@ -1,4 +1,4 @@
-title: boyamie
+title: oeoeo
 iconURL: assets/my-icon.png
 # theme: jekyll-theme-leaf
 
@@ -6,8 +6,8 @@ iconURL: assets/my-icon.png
 permalink: :slug
 
 social:
-  blog: boyamie
-  github: boyamie
+  blog: oeoeo
+  github: whthdbs
 
 plugins:
  - jekyll-feed
