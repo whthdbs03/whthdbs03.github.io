@@ -8,7 +8,7 @@ author_profile: true
 # **Naver Boost Camp Memoirs**
 <br>
 
-### **AI Tech 7 OnBoarding Class**
+<!-- ### **AI Tech 7 OnBoarding Class**
 <span style="color:grey">2024.07.29 ~ 2024.08.03</span>
 
 * [Week 0] *Track B. Python*
@@ -17,7 +17,7 @@ author_profile: true
     [![Daily Report](https://img.shields.io/badge/Day03-yellow?style=flat)](https://boyamie.github.io/boostcamp-3)
     [![Daily Report](https://img.shields.io/badge/Day04-green?style=flat)](https://boyamie.github.io/boostcamp-4)
     [![Daily Report](https://img.shields.io/badge/Day05-blue?style=flat)](https://boyamie.github.io/boostcamp-5)
-<br>
+<br> -->
 
 ### **AI Tech 7 Main Class**
 <span style="color:grey">2024.08.05 ~ 2025.02.12</span>
