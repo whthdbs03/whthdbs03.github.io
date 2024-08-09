@@ -1,4 +1,4 @@
-# whthdbs's Blog
+# whthdbs's Blog : 네부캠 회고
 https://whthdbs03.github.io/
 
 
