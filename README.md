@@ -1,10 +1,10 @@
 # whthdbs's Blog
 https://whthdbs03.github.io/
 
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
 ## Theme
 http://jekyllthemes.org/themes/moon/
+**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
 
 ## Getting Started
 
