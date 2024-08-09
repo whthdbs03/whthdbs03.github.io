@@ -45,97 +45,99 @@
 }
 
 .site-nav {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    border-radius: 5px;
-    text-align: right;
+    // position: absolute;
+    // top: 9px;
+    // right: $spacing-unit / 2;
+    // border-radius: 5px;
+    // text-align: right;
   
-    .nav-trigger {
-        display: none;
-    }
+    // .nav-trigger {
+    //     display: none;
+    // }
   
-    .menu-icon {
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
+    // .menu-icon {
+    //   float: right;
+    //   width: 36px;
+    //   height: 26px;
+    //   line-height: 0;
+    //   padding-top: 10px;
+    //   text-align: center;
   
-      > svg path {
-        fill: $theme-color;
-      }
-    }
+    //   > svg path {
+    //     fill: $theme-color;
+    //   }
+    // }
   
-    label[for="nav-trigger"] {
-      display: none;
-      // display: block;
-      // float: right;
-      // width: 36px;
-      // height: 36px;
-      // z-index: 2;
-      // cursor: pointer;
-    }
+    // label[for="nav-trigger"] {
+    //   display: none;
+    //   // display: block;
+    //   // float: right;
+    //   // width: 36px;
+    //   // height: 36px;
+    //   // z-index: 2;
+    //   // cursor: pointer;
+    // }
   
-    input ~ .trigger {
-      display: none;
-      // clear: both;
-      // display: none;
-    }
+    // input ~ .trigger {
+    //   display: none;
+    //   // clear: both;
+    //   // display: none;
+    // }
   
-    input:checked ~ .trigger {
-      display: none;
-      // display: block;
-      // background:$header-color;
-      // border-radius:20px;
-      // padding:10px;
-    }
+    // input:checked ~ .trigger {
+    //   display: none;
+    //   // display: block;
+    //   // background:$header-color;
+    //   // border-radius:20px;
+    //   // padding:10px;
+    // }
   
-    .page-link {
-      display: none;
-      // display: block;
-      // padding: 5px 10px;
+    // .page-link {
+    //   display: none;
+    //   // display: block;
+    //   // padding: 5px 10px;
   
-      // // Gaps between nav items, but not on the last one
-      // &:not(:last-child) {
-      //   margin-right: 0;
-      // }
+    //   // // Gaps between nav items, but not on the last one
+    //   // &:not(:last-child) {
+    //   //   margin-right: 0;
+    //   // }
 
-      // &:hover {
-      //   text-decoration: none;
-      // }
-    }
+    //   // &:hover {
+    //   //   text-decoration: none;
+    //   // }
+    // }
+    display: none; // 네비게이션 메뉴 전체를 숨기기
   
     @media screen and (min-width: $on-laptop) { 
-        flex:1;
-        position: static;
-        float: right;
-        border: none;
-        background-color: inherit;
-        height:100%;
+      display: none; // 큰 화면에서 네비게이션 메뉴 숨기기  
+      // flex:1;
+        // position: static;
+        // float: right;
+        // border: none;
+        // background-color: inherit;
+        // height:100%;
   
-        label[for="nav-trigger"] {
-            display: none;
-        }
+        // label[for="nav-trigger"] {
+        //     display: none;
+        // }
 
-        .menu-icon {
-            display: none;
-        }
+        // .menu-icon {
+        //     display: none;
+        // }
 
-        input ~ .trigger {
-            display: block;
-            height:100%;
-        }
+        // input ~ .trigger {
+        //     display: block;
+        //     height:100%;
+        // }
 
-        .page-link {
-            display: inline-flex;
-            align-items:center;
-            height:100%;
-            &.active {
-              background-color:$theme-color;
-              color:$header-color;
-            }
-        }
+        // .page-link {
+        //     display: inline-flex;
+        //     align-items:center;
+        //     height:100%;
+        //     &.active {
+        //       background-color:$theme-color;
+        //       color:$header-color;
+        //     }
+        // }
     }
   }
