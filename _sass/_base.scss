@@ -1,3 +1,5 @@
+// 별거없음 이 스타일 시트는 웹 페이지의 기본적인 레이아웃과 디자인을 설정하며, 반응형 디자인을 지원하기 위한 여러 가지 스타일 설정을 포함하고 있습니다.
+
 // reset
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -11,7 +13,6 @@ dl, dd, ol, ul, figure {
 }
 
 body {
-  
 
 	// background style
 	background-color: #454545;
@@ -21,8 +22,8 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 
-	// display
-	display: flex;
+	// display 
+	display: flex; // flex를 사용하여 페이지 콘텐츠를 수직으로 정렬하고
 	min-height: 100vh;
 	flex-direction: column;
 	overflow-wrap: break-word;
