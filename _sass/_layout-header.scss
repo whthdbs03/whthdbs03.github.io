@@ -69,39 +69,42 @@
     }
   
     label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
+      display: none;
+      // display: block;
+      // float: right;
+      // width: 36px;
+      // height: 36px;
+      // z-index: 2;
+      // cursor: pointer;
     }
   
     input ~ .trigger {
-      clear: both;
       display: none;
+      // clear: both;
+      // display: none;
     }
   
     input:checked ~ .trigger {
-      display: block;
-      background:$header-color;
-      border-radius:20px;
-      padding:10px;
+      display: none;
+      // display: block;
+      // background:$header-color;
+      // border-radius:20px;
+      // padding:10px;
     }
   
     .page-link {
-      display: block;
-      padding: 5px 10px;
+      display: none;
+      // display: block;
+      // padding: 5px 10px;
   
-      // Gaps between nav items, but not on the last one
-      &:not(:last-child) {
-        margin-right: 0;
-      }
+      // // Gaps between nav items, but not on the last one
+      // &:not(:last-child) {
+      //   margin-right: 0;
+      // }
 
-      &:hover {
-        text-decoration: none;
-      }
-
+      // &:hover {
+      //   text-decoration: none;
+      // }
     }
   
     @media screen and (min-width: $on-laptop) { 
