@@ -16,7 +16,7 @@
     }
 }
 
-.post-content { // .post-content 내의 다양한 제목(h1~h6)에 대한 스타일을 설정합니다. 제목 간의 상단 여백과 폰트 크기를 지정합니다.
+.post-content { 
     h1, h2, h3 { margin-top: $spacing-unit }
     h4, h5, h6 { margin-top: $spacing-unit }
 
